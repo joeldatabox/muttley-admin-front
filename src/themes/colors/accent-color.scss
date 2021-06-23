@@ -1,0 +1,95 @@
+@import "~@angular/material/theming";
+
+@include mat-core();
+$mat-accent: (
+  50 : #e3eef5,
+  100 : #b9d4e6,
+  200 : #8bb7d6,
+  300 : #5c9ac6,
+  400 : #3985b9,
+  500 : #166fad,
+  600 : #1367a6,
+  700 : #105c9c,
+  800 : #0c5293,
+  900 : #064083,
+  A100 : #b1d0ff,
+  A200 : #7eb2ff,
+  A400 : #4b94ff,
+  A700 : #3185ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #ffffff,
+  )
+);
+
+.agr-accent, [agr-accent] {
+  background-color: mat-color($mat-accent, 500) !important;
+}
+
+.agr-accent-50, [agr-accent-50] {
+  background-color: mat-color($mat-accent, 50) !important;
+}
+
+.agr-accent-100, [agr-accent-100] {
+  background-color: mat-color($mat-accent, 100) !important;
+}
+
+.agr-accent-200, [agr-accent-200] {
+  background-color: mat-color($mat-accent, 200) !important;
+}
+
+.agr-accent-300, [agr-accent-300] {
+  background-color: mat-color($mat-accent, 300) !important;
+}
+
+.agr-accent-400, [agr-accent-400] {
+  background-color: mat-color($mat-accent, 400) !important;
+}
+
+.agr-accent-500, [agr-accent-500] {
+  background-color: mat-color($mat-accent, 500) !important;
+}
+
+.agr-accent-600, [agr-accent-600] {
+  background-color: mat-color($mat-accent, 600) !important;
+}
+
+.agr-accent-700, [agr-accent-700] {
+  background-color: mat-color($mat-accent, 700) !important;
+}
+
+.agr-accent-800, [agr-accent-800] {
+  background-color: mat-color($mat-accent, 800) !important;
+}
+
+.agr-accent-900, [agr-accent-900] {
+  background-color: mat-color($mat-accent, 900) !important;
+}
+
+.agr-accent-A100, [agr-accent-A100] {
+  background-color: mat-color($mat-accent, A100) !important;
+}
+
+.agr-accent-A200, [agr-accent-A200] {
+  background-color: mat-color($mat-accent, A200) !important;
+}
+
+.agr-accent-A400, [agr-accent-A400] {
+  background-color: mat-color($mat-accent, A400) !important;
+}
+
+.agr-accent-A700, [agr-accent-A700] {
+  background-color: mat-color($mat-accent, A700) !important;
+}

@@ -1,0 +1,102 @@
+@import "~@angular/material/theming";
+
+@include mat-core();
+$mat-primary: (
+  50 : #e5e8ed,
+  100 : #bdc5d1,
+  200 : #929fb3,
+  300 : #667894,
+  400 : #455b7d,
+  500 : #243e66,
+  600 : #20385e,
+  700 : #1b3053,
+  800 : #162849,
+  900 : #0d1b38,
+  A100 : #739bff,
+  A200 : #4076ff,
+  A400 : #0d52ff,
+  A700 : #0045f2,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+  )
+);
+
+.agr-primary, [agr-primary] {
+  background-color: mat-color($mat-primary, 500) !important;
+}
+
+.agr-primary-50, [agr-primary-50] {
+  background-color: mat-color($mat-primary, 50) !important;
+}
+
+.agr-primary-100, [agr-primary-100] {
+  background-color: mat-color($mat-primary, 100) !important;
+}
+
+.agr-primary-200, [agr-primary-200] {
+  background-color: mat-color($mat-primary, 200) !important;
+}
+
+.agr-primary-300, [agr-primary-300] {
+  background-color: mat-color($mat-primary, 300) !important;
+}
+
+.agr-primary-400, [agr-primary-400] {
+  background-color: mat-color($mat-primary, 400) !important;
+}
+
+.agr-primary-500, [agr-primary-500] {
+  background-color: mat-color($mat-primary, 500) !important;
+}
+
+.agr-primary-600, [agr-primary-600] {
+  background-color: mat-color($mat-primary, 600) !important;
+}
+
+.agr-primary-700, [agr-primary-700] {
+  background-color: mat-color($mat-primary, 700) !important;
+}
+
+.agr-primary-800, [agr-primary-800] {
+  background-color: mat-color($mat-primary, 800) !important;
+}
+
+.agr-primary-900, [agr-primary-900] {
+  background-color: mat-color($mat-primary, 900) !important;
+}
+
+.agr-primary-A100, [agr-primary-A100] {
+  background-color: mat-color($mat-primary, A100) !important;
+}
+
+.agr-primary-A200, [agr-primary-A200] {
+  background-color: mat-color($mat-primary, A200) !important;
+}
+
+.agr-primary-A400, [agr-primary-A400] {
+  background-color: mat-color($mat-primary, A400) !important;
+}
+
+.agr-primary-A700, [agr-primary-A700] {
+  background-color: mat-color($mat-primary, A700) !important;
+}
+
+span, p {
+  &.agr-primary {
+    background-color: transparent !important;
+    color: mat-color($mat-primary, 500) !important;
+  }
+}

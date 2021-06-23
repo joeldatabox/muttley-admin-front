@@ -1,0 +1,35 @@
+//arquivo de reset
+@import "reset.css";
+@import "~@angular/material/theming";
+
+//tema de cores
+@import "colors/accent-color";
+@import "colors/primary-color";
+@import "colors/dark-color";
+@import "colors/warn-color";
+
+@include mat-core();
+
+//personalizando tema
+$primary: mat-palette($mat-primary, 500);
+$accent: mat-palette($mat-accent, 500, A100, A400);
+$warn: mat-palette($mat-warn, 600);
+//$dark: mat-palette($mat-dark, 600);
+$theme: mat-light-theme($primary, $accent, $warn);
+
+// Personalizando typography.
+$typography: mat-typography-config(
+  //$font-family: 'Roboto, monospace',
+  /*$headline: mat-typography-level(32px, 48px, 700),
+  $body-1: mat-typography-level(16px, 24px, 500)*/
+);
+
+//setando tema e tipografia
+@include angular-material-theme($theme);
+@include mat-core($typography);
+//@include covalent-theme($theme, $typography);
+
+//personalização de icons
+@mixin custom-theme($theme) {
+  @include md-icons($theme);
+}

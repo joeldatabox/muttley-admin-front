@@ -1,0 +1,95 @@
+@import "~@angular/material/theming";
+
+@include mat-core();
+$mat-dark: (
+  50 : #e4e5e8,
+  100 : #bbbfc5,
+  200 : #8e949e,
+  300 : #616977,
+  400 : #3f4959,
+  500 : #1d293c,
+  600 : #1a2436,
+  700 : #151f2e,
+  800 : #111927,
+  900 : #0a0f1a,
+  A100 : #5b88ff,
+  A200 : #2863ff,
+  A400 : #0043f4,
+  A700 : #003cda,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+  )
+);
+
+.agr-dark, [agr-dark] {
+  background-color: mat-color($mat-dark, 500) !important;
+}
+
+.agr-dark-50, [agr-dark-50] {
+  background-color: mat-color($mat-dark, 50) !important;
+}
+
+.agr-dark-100, [agr-dark-100] {
+  background-color: mat-color($mat-dark, 100) !important;
+}
+
+.agr-dark-200, [agr-dark-200] {
+  background-color: mat-color($mat-dark, 200) !important;
+}
+
+.agr-dark-300, [agr-dark-300] {
+  background-color: mat-color($mat-dark, 300) !important;
+}
+
+.agr-dark-400, [agr-dark-400] {
+  background-color: mat-color($mat-dark, 400) !important;
+}
+
+.agr-dark-500, [agr-dark-500] {
+  background-color: mat-color($mat-dark, 500) !important;
+}
+
+.agr-dark-600, [agr-dark-600] {
+  background-color: mat-color($mat-dark, 600) !important;
+}
+
+.agr-dark-700, [agr-dark-700] {
+  background-color: mat-color($mat-dark, 700) !important;
+}
+
+.agr-dark-800, [agr-dark-800] {
+  background-color: mat-color($mat-dark, 800) !important;
+}
+
+.agr-dark-900, [agr-dark-900] {
+  background-color: mat-color($mat-dark, 900) !important;
+}
+
+.agr-dark-A100, [agr-dark-A100] {
+  background-color: mat-color($mat-dark, A100) !important;
+}
+
+.agr-dark-A200, [agr-dark-A200] {
+  background-color: mat-color($mat-dark, A200) !important;
+}
+
+.agr-dark-A400, [agr-dark-A400] {
+  background-color: mat-color($mat-dark, A400) !important;
+}
+
+.agr-dark-A700, [agr-dark-A700] {
+  background-color: mat-color($mat-dark, A700) !important;
+}

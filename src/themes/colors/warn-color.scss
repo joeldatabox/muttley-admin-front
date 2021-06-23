@@ -1,0 +1,95 @@
+@import "~@angular/material/theming";
+
+@include mat-core();
+$mat-warn: (
+  50 : #f5e1e4,
+  100 : #e6b4bb,
+  200 : #d6828d,
+  300 : #c5505f,
+  400 : #b82b3d,
+  500 : #ac051b,
+  600 : #a50418,
+  700 : #9b0414,
+  800 : #920310,
+  900 : #820108,
+  A100 : #ffafb0,
+  A200 : #ff7c7e,
+  A400 : #ff494c,
+  A700 : #ff3033,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #ffffff,
+    A700 : #ffffff,
+  )
+);
+
+.agr-warning, [agr-warning] {
+  background-color: mat-color($mat-warn, 500) !important;
+}
+
+.agr-warning-50, [agr-warning-50] {
+  background-color: mat-color($mat-warn, 50) !important;
+}
+
+.agr-warning-100, [agr-warning-100] {
+  background-color: mat-color($mat-warn, 100) !important;
+}
+
+.agr-warning-200, [agr-warning-200] {
+  background-color: mat-color($mat-warn, 200) !important;
+}
+
+.agr-warning-300, [agr-warning-300] {
+  background-color: mat-color($mat-warn, 300) !important;
+}
+
+.agr-warning-400, [agr-warning-400] {
+  background-color: mat-color($mat-warn, 400) !important;
+}
+
+.agr-warning-500, [agr-warning-500] {
+  background-color: mat-color($mat-warn, 500) !important;
+}
+
+.agr-warning-600, [agr-warning-600] {
+  background-color: mat-color($mat-warn, 600) !important;
+}
+
+.agr-warning-700, [agr-warning-700] {
+  background-color: mat-color($mat-warn, 700) !important;
+}
+
+.agr-warning-800, [agr-warning-800] {
+  background-color: mat-color($mat-warn, 800) !important;
+}
+
+.agr-warning-900, [agr-warning-900] {
+  background-color: mat-color($mat-warn, 900) !important;
+}
+
+.agr-warning-A100, [agr-warning-A100] {
+  background-color: mat-color($mat-warn, A100) !important;
+}
+
+.agr-warning-A200, [agr-warning-A200] {
+  background-color: mat-color($mat-warn, A200) !important;
+}
+
+.agr-warning-A400, [agr-warning-A400] {
+  background-color: mat-color($mat-warn, A400) !important;
+}
+
+.agr-warning-A700, [agr-warning-A700] {
+  background-color: mat-color($mat-warn, A700) !important;
+}
